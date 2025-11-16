@@ -7,7 +7,7 @@ int main(){
 
     double x;
 
-    cout << "Is your number to round?: ";
+    cout << "Wanna round up/down your number?: ";
     cout << "\n Enter your number: ";
     cin >> x;
 
@@ -18,7 +18,6 @@ int main(){
     else{
         cout << x << " Is rounded up to " << round(x);
     }
-
 
     return 0;
 }
